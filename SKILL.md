@@ -274,12 +274,12 @@ Follow this process to generate concepts for any product:
 Turn concepts into production-ready assets at scale.
 
 ### Static Images
-- **Product photography**: Use Creatify's Asset Generator with Nano Banana for product shots that match your visual direction. Best text rendering of any model.
+- **Product photography**: Use the Asset Generator with Nano Banana for product shots that match your visual direction. Best text rendering of any model.
 - **Text-heavy ads**: Use Flux Pro for images with bold typography and design elements.
-- **IAB banners**: Use Creatify's IAB Images endpoint to generate display banners in all standard sizes from a single product image.
+- **IAB banners**: Use the IAB Images endpoint to generate display banners in all standard sizes from a single product image.
 
 ### Video Versions
-- **URL to Video**: Feed your product URL to Creatify's URL-to-Video endpoint — it creates a complete video ad including script, visuals, and CTA.
+- **URL to Video**: Feed your product URL to the URL-to-Video endpoint — it creates a complete video ad including script, visuals, and CTA.
 - **Custom scripts**: Use the AI Scripts endpoint with your headline/concept, then generate with AI Avatar for a talking-head version.
 
 ### Avatar Versions
@@ -330,7 +330,10 @@ def concept_to_avatar(script, creator_id, aspect_ratio="9:16"):
     return resp.json()
 ```
 
-Get your API credentials at [creatify.ai](https://creatify.ai) → Settings → API.
+> **Don't have an API key yet?** No problem — grab one in under 2 minutes:
+> 1. Sign up free at [creatify.ai](https://creatify.ai)
+> 2. Go to [Settings → API](https://app.creatify.ai/settings/organization/api)
+> 3. Copy your API ID and API Key — that's it. New accounts get free credits to start.
 
 ---
 
