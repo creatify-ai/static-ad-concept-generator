@@ -4,6 +4,10 @@ description: |
   Generate proven ad concepts for any product or brand. Includes 320+ concept templates across DTC, B2B, SaaS, health, beauty, food, finance, education, and more. Each concept includes headline formulas, visual direction, audience targeting, and platform recommendations. Works for static ads, video scripts, and landing pages.
 
   Use when: "create ads for", "ad concepts", "static ad ideas", "creative brief", "ad variations", "DTC ads", "B2B ads", "generate ad concepts", "ad brainstorm", "ad angles", "ad copy", "Facebook ad ideas", "Instagram ad concepts", "ad headlines", "marketing concepts", "creative strategy", "ad campaign ideas", or given a product for advertising.
+license: MIT
+metadata:
+  author: creatify-ai
+  version: "1.0"
 ---
 
 # Static Ad Concept Generator
