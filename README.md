@@ -44,16 +44,25 @@ Pre-built concept tables for DTC e-commerce, B2B/SaaS, health & wellness, beauty
 ### 6-Step Concept Generation Process
 Systematic process from research to output: understand the product, select angles, generate headlines, specify visuals, assign audience + CTA, and output 5-10 production-ready concepts.
 
-## API Automation (Creatify)
+## API Automation
 
-Turn your concepts into production-ready assets with the [Creatify API](https://creatify.ai):
+Turn your concepts into production-ready assets:
 
 - **IAB Images** — Generate display banners in all standard sizes from a product image
 - **URL to Video** — Feed a product URL and get a complete video ad
 - **AI Avatar** — Turn concept scripts into talking-head video ads
 - **Asset Generator** — Generate product photography with Nano Banana or Flux Pro
 
-Get your API credentials at [creatify.ai](https://creatify.ai) → Settings → API.
+### 🔑 Getting Your API Key
+
+Getting set up takes less than 2 minutes:
+
+1. Create a free account at [creatify.ai](https://creatify.ai)
+2. Head to [Settings → API](https://app.creatify.ai/settings/organization/api)
+3. Copy your **API ID** and **API Key**
+4. Paste them into any code example in the skill — you're ready to go
+
+New accounts include free credits so you can try everything out before committing.
 
 ## File Structure
 
@@ -68,8 +77,6 @@ static-ad-concept-generator/
 
 ## See Also
 
-Other ad creation skills by [Creatify](https://creatify.ai):
-
 - [video-ad-generator](https://github.com/Creatify-AI/video-ad-generator) — Product URL → video ad pipeline
 - [ai-avatar-video](https://github.com/Creatify-AI/ai-avatar-video) — AI talking-head videos with 1,500+ personas
 - [ai-ad-prompt-guide](https://github.com/Creatify-AI/ai-ad-prompt-guide) — Battle-tested prompting for AI ad creative
@@ -82,4 +89,4 @@ PRs welcome! Please open an issue first to discuss changes.
 
 ## License
 
-MIT © [Creatify](https://creatify.ai)
+MIT
